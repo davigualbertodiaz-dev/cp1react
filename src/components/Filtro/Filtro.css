@@ -1,0 +1,35 @@
+.filtro {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--borda);
+  margin-bottom: 22px;
+  overflow-x: auto;
+}
+
+.filtro-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 14px;
+  white-space: nowrap;
+  color: var(--texto-fraco);
+  font-size: 0.92rem;
+  border-bottom: 2px solid transparent;
+}
+
+.filtro-item:hover {
+  color: var(--texto);
+}
+
+.filtro-item.ativo {
+  color: var(--ferrugem);
+  border-bottom-color: var(--ferrugem);
+}
+
+.filtro-item span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 20px;
+  background-color: var(--caixa-clara);
+}

@@ -1,0 +1,73 @@
+.cabecalho {
+  border-bottom: 1px solid var(--borda);
+  background-color: var(--fundo);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.cabecalho-interno {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 62px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.logo svg {
+  font-size: 1.6rem;
+  color: var(--ferrugem);
+}
+
+.nav {
+  display: flex;
+  gap: 4px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: var(--texto-fraco);
+  font-size: 0.92rem;
+}
+
+.nav-link:hover {
+  color: var(--texto);
+  background-color: var(--caixa-clara);
+}
+
+.nav-link.ativo {
+  color: var(--ferrugem);
+}
+
+.nav-link svg {
+  font-size: 1.15rem;
+}
+
+/* No celular some o texto e fica só o ícone */
+@media (max-width: 700px) {
+  .nav-link span {
+    display: none;
+  }
+
+  .nav-link svg {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .logo span {
+    display: none;
+  }
+}

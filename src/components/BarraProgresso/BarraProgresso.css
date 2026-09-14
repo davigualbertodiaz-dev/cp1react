@@ -1,0 +1,29 @@
+.progresso {
+  width: 100%;
+}
+
+.progresso-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.87rem;
+  color: var(--texto-fraco);
+  margin-bottom: 6px;
+}
+
+.progresso-topo strong {
+  color: var(--ferrugem);
+  font-size: 1rem;
+}
+
+.progresso-trilha {
+  height: 8px;
+  border-radius: 20px;
+  background-color: var(--caixa-clara);
+  overflow: hidden;
+}
+
+.progresso-cheio {
+  height: 100%;
+  background-color: var(--ferrugem);
+}

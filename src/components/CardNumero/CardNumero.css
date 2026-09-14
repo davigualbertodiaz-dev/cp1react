@@ -1,0 +1,30 @@
+.card-numero {
+  padding: 18px;
+  background-color: var(--caixa);
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+}
+
+.card-numero-icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: var(--caixa-clara);
+  color: var(--ferrugem);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-numero strong {
+  display: block;
+  font-size: 1.9rem;
+  line-height: 1.2;
+}
+
+.card-numero span {
+  font-size: 0.88rem;
+  color: var(--texto-fraco);
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" width="560" height="270" font-family="Segoe UI, Arial, sans-serif">
+<rect width="560" height="270" fill="#0a0e13"/>
+<text x="20" y="30" fill="#e7ebf0" font-size="15" font-weight="700">Paleta do site</text>
+<text x="20" y="50" fill="#8e9bad" font-size="11">cores tiradas da fotografia de Vinland Saga</text>
+<text x="20" y="70" fill="#8e9bad" font-size="10">BASE FRIA — o mar e o aço</text>
+<rect x="20" y="78" width="80" height="44" rx="6" fill="#0a0e13" stroke="#27323f"/>
+<text x="20" y="136" fill="#8e9bad" font-size="9">#0a0e13</text>
+<rect x="108" y="78" width="80" height="44" rx="6" fill="#121821" stroke="#27323f"/>
+<text x="108" y="136" fill="#8e9bad" font-size="9">#121821</text>
+<rect x="196" y="78" width="80" height="44" rx="6" fill="#1b2331" stroke="#27323f"/>
+<text x="196" y="136" fill="#8e9bad" font-size="9">#1b2331</text>
+<rect x="284" y="78" width="80" height="44" rx="6" fill="#27323f" stroke="#27323f"/>
+<text x="284" y="136" fill="#8e9bad" font-size="9">#27323f</text>
+<rect x="372" y="78" width="80" height="44" rx="6" fill="#8e9bad" stroke="#27323f"/>
+<text x="372" y="136" fill="#8e9bad" font-size="9">#8e9bad</text>
+<rect x="460" y="78" width="80" height="44" rx="6" fill="#e7ebf0" stroke="#27323f"/>
+<text x="460" y="136" fill="#8e9bad" font-size="9">#e7ebf0</text>
+<text x="20" y="162" fill="#8e9bad" font-size="10">AÇÃO — ferrugem de sangue seco</text>
+<rect x="20" y="170" width="80" height="44" rx="6" fill="#e05a3d"/>
+<rect x="108" y="170" width="80" height="44" rx="6" fill="#b8402a"/>
+<text x="20" y="228" fill="#8e9bad" font-size="9">#e05a3d</text>
+<text x="108" y="228" fill="#8e9bad" font-size="9">#b8402a</text>
+<text x="214" y="162" fill="#8e9bad" font-size="10">JÁ ASSISTIDO — bronze</text>
+<rect x="214" y="170" width="80" height="44" rx="6" fill="#d0a05a"/>
+<text x="214" y="228" fill="#8e9bad" font-size="9">#d0a05a</text>
+<text x="20" y="256" fill="#8e9bad" font-size="11">Só uma cor quente na tela, e ela é sempre uma ação. Nenhum verde.</text>
+</svg>

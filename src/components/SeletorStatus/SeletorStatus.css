@@ -1,0 +1,23 @@
+.status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.status-botao {
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--borda);
+  color: var(--texto-fraco);
+  font-size: 0.85rem;
+}
+
+.status-botao:hover {
+  color: var(--texto);
+}
+
+.status-botao.ativo {
+  background-color: var(--ferrugem-forte);
+  border-color: var(--ferrugem-forte);
+  color: #fbf2ea;
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" width="560" height="250" font-family="Segoe UI, Arial, sans-serif">
+<rect width="560" height="250" fill="#0a0e13"/>
+<text x="20" y="30" fill="#e7ebf0" font-size="15" font-weight="700">Ranking com barras</text>
+<text x="20" y="50" fill="#8e9bad" font-size="11">anotação do que observei no Spotify Wrapped</text>
+<text x="20" y="78" fill="#e7ebf0" font-size="11">Drama</text>
+<text x="380" y="78" text-anchor="end" fill="#8e9bad" font-size="10">62 ep.</text>
+<rect x="20" y="85" width="360" height="8" rx="4" fill="#1b2331"/>
+<rect x="20" y="85" width="360" height="8" rx="4" fill="#e05a3d"/>
+<text x="20" y="120" fill="#e7ebf0" font-size="11">Animação</text>
+<text x="380" y="120" text-anchor="end" fill="#8e9bad" font-size="10">41 ep.</text>
+<rect x="20" y="127" width="360" height="8" rx="4" fill="#1b2331"/>
+<rect x="20" y="127" width="237" height="8" rx="4" fill="#e05a3d"/>
+<text x="20" y="162" fill="#e7ebf0" font-size="11">Ação</text>
+<text x="380" y="162" text-anchor="end" fill="#8e9bad" font-size="10">28 ep.</text>
+<rect x="20" y="169" width="360" height="8" rx="4" fill="#1b2331"/>
+<rect x="20" y="169" width="162" height="8" rx="4" fill="#e05a3d"/>
+<text x="20" y="204" fill="#e7ebf0" font-size="11">Comédia</text>
+<text x="380" y="204" text-anchor="end" fill="#8e9bad" font-size="10">12 ep.</text>
+<rect x="20" y="211" width="360" height="8" rx="4" fill="#1b2331"/>
+<rect x="20" y="211" width="68" height="8" rx="4" fill="#e05a3d"/>
+<text x="20" y="235" fill="#8e9bad" font-size="11">Barra proporcional ao 1º colocado, e no máximo 5 linhas.</text>
+</svg>

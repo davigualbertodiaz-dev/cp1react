@@ -1,0 +1,21 @@
+.aviso {
+  text-align: center;
+  padding: 48px 20px;
+  background-color: var(--caixa);
+  border: 1px dashed var(--borda);
+  border-radius: 10px;
+}
+
+.aviso h2 {
+  font-size: 1.1rem;
+}
+
+.aviso p {
+  color: var(--texto-fraco);
+  font-size: 0.92rem;
+  margin-top: 6px;
+}
+
+.aviso .botao {
+  margin-top: 16px;
+}

@@ -1,0 +1,15 @@
+.rodape {
+  border-top: 1px solid var(--borda);
+  background-color: var(--caixa);
+  padding: 22px 0;
+}
+
+.rodape p {
+  color: var(--texto-fraco);
+  font-size: 0.85rem;
+}
+
+.rodape a {
+  color: var(--azul);
+  text-decoration: underline;
+}

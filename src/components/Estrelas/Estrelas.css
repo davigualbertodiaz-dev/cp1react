@@ -1,0 +1,26 @@
+.estrelas {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.estrelas button {
+  display: flex;
+  padding: 2px;
+}
+
+.estrela {
+  font-size: 1.5rem;
+  color: var(--borda);
+}
+
+.estrela.cheia {
+  color: var(--bronze);
+  fill: var(--bronze);
+}
+
+.estrelas span {
+  margin-left: 8px;
+  font-size: 0.85rem;
+  color: var(--texto-fraco);
+}

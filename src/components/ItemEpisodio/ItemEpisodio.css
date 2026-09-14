@@ -1,0 +1,58 @@
+.episodio {
+  display: flex;
+  gap: 14px;
+  padding: 15px;
+  background-color: var(--caixa);
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+}
+
+.episodio.visto {
+  border-color: rgba(208, 160, 90, 0.35);
+}
+
+/* Botão grande porque é o clique mais usado do site, quase sempre no celular */
+.episodio-botao {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid var(--borda);
+  background-color: var(--caixa-clara);
+  color: var(--texto-fraco);
+  font-weight: 700;
+}
+
+.episodio-botao:hover:not(:disabled) {
+  border-color: var(--bronze);
+  color: var(--bronze);
+}
+
+.episodio.visto .episodio-botao {
+  background-color: var(--bronze);
+  border-color: var(--bronze);
+  color: #241705;
+}
+
+.episodio-botao:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.episodio h3 {
+  font-size: 1rem;
+}
+
+.episodio-info {
+  font-size: 0.78rem;
+  color: var(--texto-fraco);
+}
+
+.episodio-sinopse {
+  font-size: 0.87rem;
+  color: var(--texto-fraco);
+  margin-top: 6px;
+}

@@ -1,0 +1,55 @@
+.temporada {
+  padding-top: 24px;
+}
+
+.voltar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--texto-fraco);
+  font-size: 0.9rem;
+}
+
+.voltar:hover {
+  color: var(--ferrugem);
+}
+
+.temporada-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 16px 0 22px;
+}
+
+.temporada-topo h1 {
+  font-size: 1.6rem;
+}
+
+.temporada-topo p {
+  color: var(--texto-fraco);
+  font-size: 0.9rem;
+}
+
+.bloqueado {
+  font-size: 0.85rem;
+}
+
+.bloqueado a {
+  color: var(--ferrugem);
+  text-decoration: underline;
+}
+
+.lista-episodios {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 600px) {
+  .temporada-topo .botao {
+    width: 100%;
+    justify-content: center;
+  }
+}

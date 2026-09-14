@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 230" width="560" height="230" font-family="Segoe UI, Arial, sans-serif">
+<rect width="560" height="230" fill="#0a0e13"/>
+<text x="20" y="30" fill="#e7ebf0" font-size="15" font-weight="700">Abas com contagem</text>
+<text x="20" y="50" fill="#8e9bad" font-size="11">anotação do que observei no Notion</text>
+<text x="20" y="90" fill="#e05a3d" font-size="12">Todas</text>
+<rect x="63" y="79" width="20" height="14" rx="7" fill="#1b2331"/>
+<text x="69" y="90" fill="#e05a3d" font-size="9" font-weight="700">12</text>
+<rect x="16" y="102" width="71" height="2" fill="#e05a3d"/>
+<text x="99" y="90" fill="#8e9bad" font-size="12">Assistindo</text>
+<rect x="177" y="79" width="20" height="14" rx="7" fill="#1b2331"/>
+<text x="183" y="90" fill="#8e9bad" font-size="9" font-weight="700">5</text>
+<text x="213" y="90" fill="#8e9bad" font-size="12">Quero assistir</text>
+<rect x="319" y="79" width="20" height="14" rx="7" fill="#1b2331"/>
+<text x="325" y="90" fill="#8e9bad" font-size="9" font-weight="700">4</text>
+<text x="355" y="90" fill="#8e9bad" font-size="12">Concluídas</text>
+<rect x="433" y="79" width="20" height="14" rx="7" fill="#1b2331"/>
+<text x="439" y="90" fill="#8e9bad" font-size="9" font-weight="700">3</text>
+<rect x="20" y="103" width="520" height="1" fill="#27323f"/>
+<rect x="20" y="120" width="86" height="72" rx="7" fill="#1b2331" stroke="#27323f"/>
+<rect x="116" y="120" width="86" height="72" rx="7" fill="#1b2331" stroke="#27323f"/>
+<rect x="212" y="120" width="86" height="72" rx="7" fill="#1b2331" stroke="#27323f"/>
+<text x="20" y="215" fill="#8e9bad" font-size="11">A contagem na própria aba mostra se vale a pena clicar antes de clicar.</text>
+</svg>

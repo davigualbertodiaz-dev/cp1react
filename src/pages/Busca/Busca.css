@@ -1,0 +1,32 @@
+.campo-busca {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 500px;
+  padding: 0 14px;
+  margin-bottom: 26px;
+  background-color: var(--caixa);
+  border: 1px solid var(--borda);
+  border-radius: 25px;
+}
+
+.campo-busca:focus-within {
+  border-color: var(--ferrugem);
+}
+
+.campo-busca svg {
+  color: var(--texto-fraco);
+  font-size: 1.1rem;
+}
+
+.campo-busca input {
+  flex: 1;
+  min-width: 0;
+  padding: 13px 0;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--texto);
+  font-family: inherit;
+  font-size: 1rem;
+}
