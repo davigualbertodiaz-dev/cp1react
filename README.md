@@ -2,8 +2,8 @@
 
 Site pra acompanhar séries: você marca os episódios que assistiu e ele guarda onde você parou.
 
-**Site publicado:** _(colar link da Vercel)_
-**Repositório:** _(colar link do GitHub)_
+**Site publicado:** https://cp1react.vercel.app/
+**Repositório:** https://github.com/davigualbertodiaz-dev/cp1react
 
 ## Integrante
 
