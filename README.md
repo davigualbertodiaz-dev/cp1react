@@ -1,15 +1,16 @@
-# Próximo Episódio
+NOME DO PRODUTO: Próximo Episódio
 
 Site pra acompanhar séries: você marca os episódios que assistiu e ele guarda onde você parou.
 
 **Site publicado:** https://cp1react.vercel.app/
 **Repositório:** https://github.com/davigualbertodiaz-dev/cp1react
 
-## Integrante
+# Integrantes
 
- Davi Diaz  RM: 569825 ESPT 
+ Davi Diaz  RM: 569825 
+ Rhuan Camargo RM: 568967
 
-## O problema
+# O problema
 
 O TV Time foi descontinuado em julho de 2026. Junto com ele foi embora a ferramenta que resolvia uma
 coisa bem chata: lembrar em que episódio você parou.
@@ -18,8 +19,8 @@ Quem acompanha várias séries ao mesmo tempo, em serviços diferentes, e assist
 sempre passa pela mesma cena — abrir a série depois de três semanas e não fazer ideia de onde parou.
 Aí ou revê um episódio à toa, ou fica adivinhando.
 
-Do enunciado, escolhi o problema **"acompanhar séries e episódios"**. Como consequência disso,
-também entrou **"acompanhar estatísticas pessoais"**, porque o mesmo registro que resolve o problema
+Do enunciado, escolhi o problema "acompanhar séries e episódios". Como consequência disso,
+também entrou "acompanhar estatísticas pessoais", porque o mesmo registro que resolve o problema
 já dá os números de graça.
 
 Não tentei refazer o TV Time inteiro. Ficaram de fora: comunidade, comentários, anti-spoiler, "onde
@@ -34,10 +35,10 @@ assistir", filmes e gamificação.
 
 Tudo fica salvo no navegador. Não tem login nem servidor.
 
-## Funcionalidades
+# Funcionalidades
 
 - Séries em alta e populares na home
-- Busca que dispara sozinha depois de 2 letras (com debounce de 500ms)
+- Funcionalidade de busca
 - Página da série com sinopse, nota, gêneros e temporadas
 - Lista com 3 status: quero assistir, assistindo e concluída
 - Marcar episódio individual ou temporada inteira
@@ -50,17 +51,17 @@ Tudo fica salvo no navegador. Não tem login nem servidor.
 - Página 404
 - Responsivo, testado até 360px
 
-## Tecnologias
+# Tecnologias
 
-- **React 18** com Vite
-- **React Router 7** — `createBrowserRouter` e `RouterProvider`
-- **React Icons** — conjunto Feather (`Fi`) e um ícone do Game Icons (`Gi`) no logo
-- **CSS puro** — um arquivo por componente, cores em variáveis no `:root`
-- **localStorage** pra salvar a lista
+- React 18 com Vite
+- React Router 7 — `createBrowserRouter` e `RouterProvider`
+- React Icons — conjunto Feather (`Fi`) e um ícone do Game Icons (`Gi`) no logo
+- CSS  — um arquivo por componente, cores em variáveis no `:root`
+- localStorage pra salvar a lista
 
-Sem Context API, sem Redux, sem Tailwind, sem Axios.
 
-### O que usei de React
+
+# O que usei de React
 
 | Recurso | Onde |
 |---|---|
@@ -74,23 +75,11 @@ Sem Context API, sem Redux, sem Tailwind, sem Axios.
 | `NavLink` | menu do cabeçalho, com destaque na rota ativa |
 | Renderização condicional e `.map` com `key` | todas as páginas |
 
-## API
+# API
 
 **TMDB** — https://developer.themoviedb.org/docs/getting-started
 
-| Endpoint | Onde |
-|---|---|
-| `/tv/popular` | Home |
-| `/trending/tv/week` | Home |
-| `/search/tv` | Busca |
-| `/tv/{id}` | página da série |
-| `/tv/{id}/season/{n}` | página da temporada |
-
-Todas as chamadas usam `language=pt-BR`. Tudo que fala com a API está em `src/services/api.js`.
-
-> Esse site usa a API do TMDB, mas não é endossado nem certificado por eles.
-
-## Rotas
+# Rotas
 
 | Rota | Página |
 |---|---|
@@ -102,28 +91,20 @@ Todas as chamadas usam `language=pt-BR`. Tudo que fala com a API está em `src/s
 | `/estatisticas` | Estatísticas |
 | `*` | 404 |
 
-## Como rodar
+# Como rodar
 
 Precisa do Node 18 ou mais novo.
 
 ```bash
-git clone <url-do-repositorio>
-cd proximo-episodio
-npm install
-```
-
-Depois pegue uma chave da API em https://www.themoviedb.org/settings/api (opção Developer) e copie
-o valor de **"Chave da API (v3 auth)"**.
-
+git clone https://github.com/davigualbertodiaz-dev/cp1react.git
 ```bash
 cp .env.example .env
 ```
 
 Abra o `.env` e cole a chave:
 
-```
-VITE_TMDB_API_KEY=sua_chave_aqui
-```
+
+VITE_TMDB_API_KEY=
 
 Depois:
 
@@ -133,12 +114,9 @@ npm run dev
 
 O site abre em http://localhost:5173.
 
-> O `.env` está no `.gitignore` e não vai pro GitHub. Se esquecer essa parte, a home mostra um aviso
-> explicando o que fazer em vez de abrir em branco.
-
 Pra gerar a versão de produção: `npm run build`.
 
-## Deploy na Vercel
+# Deploy na Vercel
 
 1. Suba o projeto no GitHub
 2. Na Vercel, importe o repositório (ela reconhece o Vite sozinha)
@@ -167,10 +145,11 @@ o site tinha que fazer, depois o código.
   cálculo do próximo episódio)
 - As referências visuais e a paleta de cores
 - Não usar Context API nem biblioteca de estado
+- Não usar nada que não foi mostrado em aula
 
 
 
-## Referências
+# Referências
 
 - Enunciado da CP1 – 2TRI – Web Development
 - Referências visuais: Letterboxd, Notion, Duolingo, Spotify Wrapped e a paleta de Vinland Saga,
